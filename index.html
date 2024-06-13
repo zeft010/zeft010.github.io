@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Mewarnai</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>Web Mewarnai</h1>
+<div class="toolbar">
+  <button id="reset">Reset</button>
+  <button id="undo">Undo</button>
+  <button id="redo">Redo</button>
+  <button id="eraser">Eraser</button>
+  <button id="download">Download</button>
+  <input type="number" id="grid-size" min="5" max="100" value="20">
+  <button id="resize">Resize</button>
+  <select id="animal-selector">
+    <option value="">Select Shape</option>
+    <option value="heart">Heart</option>
+    <option value="dog">Dog</option>
+    <option value="fish">Fish</option>
+  </select>
+</div>
+<div class="color-selector" id="colorPalette"></div>
+<div id="canvas"></div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
